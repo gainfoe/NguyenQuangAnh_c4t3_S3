@@ -14,6 +14,7 @@ stock["pear"] = 15
 
 print("List of fruits:")
 number = 1
+
 for fruit in prices:
     print(str(number) + ".")
     print(fruit)
