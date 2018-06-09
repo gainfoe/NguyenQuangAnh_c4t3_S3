@@ -25,7 +25,7 @@ for fruit in prices:
 print("Total:")
 total = 0
 for fruit in prices:
-    print(fruit + 's', "cost", prices[fruit] * stock[fruit])
+    print(fruit + 's', "cost", float(prices[fruit] * stock[fruit]))
     total += prices[fruit] * stock[fruit]
 
 print("Total Prices:", total)
